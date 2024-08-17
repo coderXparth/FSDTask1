@@ -1,0 +1,77 @@
+h3.inline{
+  display: inline;
+  margin-right: 10px;
+}
+h3{
+  color: rgb(20, 20, 30);
+}
+.img1:hover .text {
+  opacity: 1;
+}
+body {
+  background-color: #E6E6E6;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  top: -75px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.img2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt{
+  font-size: 18px;
+  color: rgb(20, 20, 20);
+  text-align: center;
+}
+.line1,.line2{
+  font-weight: bold;
+  color: rgb(33, 103, 252);
+  text-align: center;
+}
+.txt2,.txt5{
+  font-size: 32px;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+.img3,.img4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 70px;
+}
+.txt3,.txt4 {
+  font-size: 14px;
+  padding-left: 850px;
+  position: relative;
+  top: -95px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
